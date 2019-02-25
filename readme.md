@@ -2,6 +2,15 @@
 
 This is a fork of [github.com/hasib32/rest-api-with-lumen](https://github.com/hasib32/rest-api-with-lumen). 
 
+If you encounter error : SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'America/Los_Angeles'
+
+You just need to copy your system’s time zone information across to the database :
+In MacOS you can do steps :
+
+```sql
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root -p mysql
+```
+
  ## About 
  This is my experiment on upgrading to Lumen 5.7. On top of the [original features](https://github.com/hasib32/rest-api-with-lumen), the followings are added:
 
