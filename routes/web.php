@@ -11,8 +11,8 @@
 |
 */
 $router->get('/', function () use ($router) {
-	//echo env('APP_TIMEZONE') . "\n";
-	//dd(date_default_timezone_set(env('APP_TIMEZONE')));
+	echo env('APP_TIMEZONE') . "\n";
+	dd(date_default_timezone_set(env('APP_TIMEZONE')));
     return app()->version();
 });
 
