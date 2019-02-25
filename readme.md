@@ -131,8 +131,4 @@ class RepositoriesServiceProvider extends ServiceProvider
         ];
     }
 }
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> 0b2f77b620e4f6b8d393bd0a036503a1229849a9
+
